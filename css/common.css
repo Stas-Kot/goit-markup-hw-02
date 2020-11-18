@@ -1,0 +1,59 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --title-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --bcg-secondary-color: #2f303a;
+  --bcg-primary-color: #e5e5e5;
+}
+
+body {
+  background-color: var(--bcg-primary-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+
+header {
+  background-color: var(--title-color);
+}
+/* основной цвет #212121 */
+/* вторичный цвет #757575 */
+/*  голубой акцент #2196F3 */
+/* белый цвет #FFFFFF */
+/* фон темный #2F303A */
+/* фон серый #F5F4FA */
+/* фон белый #E5E5E5 */
+/* текст футер rgba(255,255,255,0.6) */
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.adress-nav .link {
+  color: var(--primary-text-color);
+}
+.adress-nav .link:hover,
+.adress-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Footer */
+.footer {
+  background-color: var(--bcg-secondary-color);
+}
+.footer-link {
+  color: var(--title-color);
+}
+.footer-link.mail,
+.footer-link.tel {
+  color: rgba(255, 255, 255, 0.6);
+}
