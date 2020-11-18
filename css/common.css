@@ -53,7 +53,17 @@ header {
 .footer-link {
   color: var(--title-color);
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
 .footer-link.mail,
 .footer-link.tel {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-link.mail:hover,
+.footer-link.mail:focus,
+.footer-link.tel:hover,
+.footer-link.tel:focus {
+  color: var(--accent-color);
 }
