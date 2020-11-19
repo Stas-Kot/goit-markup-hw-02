@@ -11,6 +11,7 @@
 body {
   background-color: var(--bcg-primary-color);
   color: var(--primary-text-color);
+  scroll-behavior: smooth;
 }
 .list {
   list-style: none;
@@ -18,6 +19,15 @@ body {
 
 header {
   background-color: var(--title-color);
+}
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--accent-color);
 }
 /* основной цвет #212121 */
 /* вторичный цвет #757575 */
@@ -33,37 +43,30 @@ header {
   color: var(--title-text-color);
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .link.current {
-  color: var(--accent-color);
-}
-.contacts-nav .link {
-  color: var(--primary-text-color);
-}
+.site-nav .link:focus,
+.site-nav .link.current,
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
   color: var(--accent-color);
 }
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+}
+
 /* Footer */
 .footer {
   background-color: var(--bcg-secondary-color);
 }
-.footer-link {
+.footer .link {
+  color: var(--footer-text-color);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+.footer a[href="https://goo.gl/maps/KZqqGX3hnb8J8rTS9"]
+{
   color: var(--title-color);
-}
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
-}
-.footer-link.mail,
-.footer-link.tel {
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-link.mail:hover,
-.footer-link.mail:focus,
-.footer-link.tel:hover,
-.footer-link.tel:focus {
-  color: var(--accent-color);
 }
