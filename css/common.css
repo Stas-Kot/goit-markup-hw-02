@@ -39,11 +39,11 @@ header {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.adress-nav .link {
+.contacts-nav .link {
   color: var(--primary-text-color);
 }
-.adress-nav .link:hover,
-.adress-nav .link:focus {
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
   color: var(--accent-color);
 }
 /* Footer */
