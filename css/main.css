@@ -1,36 +1,65 @@
-/* Hero */
+/* HERO */
 .hero {
   background-color: var(--bcg-secondary-color);
 }
 .hero-title {
   color: var(--title-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-/* section */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.section-title {
-  color: var(--title-text-color);
-}
-.section-team-title {
-  color: var(--title-text-color);
-}
-/* Button */
+/* BUTTON */
+
 .button {
   background: var(--accent-color);
   color: var(--title-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-.section.section-team {
-  background-color: #f5f4fa;
+/* FEATURES */
+
+.features-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* ABOUT and TEAM */
+
+.about-title,
+.team-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: var(--bcg-primary-color);
 }
