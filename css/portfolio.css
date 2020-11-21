@@ -19,7 +19,6 @@
 /* main section */
 .portfolio-list-title {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -30,9 +29,7 @@
 }
 .portfolio-list-item {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  letter-spacing: 0.03em;
 }
