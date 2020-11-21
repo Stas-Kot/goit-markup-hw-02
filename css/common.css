@@ -12,7 +12,7 @@ body {
   background-color: var(--title-color);
   color: var(--primary-text-color);
   scroll-behavior: smooth;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -43,7 +43,7 @@ header {
 .logo {
   color: #000000;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -88,7 +88,7 @@ header {
 /* FOOTER */
 .footer .logo {
   color: var(--title-color);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
